@@ -37,7 +37,7 @@ jobs:
       uses: aiden-watch/action-release-aab@master
       env:
        GITHUB_TOKEN: ${{ secrets.TOKEN }}
-       APP_FOLDER: app
+       RELEASE_FILE_FOLDER: app/build/outputs/bundle/release
 ```
 
 ### Secrets

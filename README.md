@@ -38,6 +38,8 @@ jobs:
       env:
        GITHUB_TOKEN: ${{ secrets.TOKEN }}
        RELEASE_FILE_FOLDER: app/build/outputs/bundle/release
+       TARGET_BRANCH: master
+       TAG_NAME: v99999.99999.99999
 ```
 
 ### Secrets

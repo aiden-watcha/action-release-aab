@@ -54,7 +54,9 @@ I am unsure as to why using the default `GITHUB_TOKEN` provided universally will
 
 You'll need to provide these environment variables to specify exactly what information is needed to build the AAB.
 
-* **APP_FOLDER**: main folder to search for the aab. Most of the time, it's `app`
+* **RELEASE_FILE_FOLDER**: main folder to search for the aab. Most of the time, it's `app`
+* **TARGET_BRANCH**: target branch to create release
+* **TAG_NAME**: tag name to create tag
 
 ## Credits
 

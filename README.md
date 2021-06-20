@@ -34,7 +34,7 @@ jobs:
       run: ./gradlew bundleRelease
       
     - name: Releasing using Hub
-      uses: aiden-watch/action-release-aab@master
+      uses: aiden-watcha/action-release-aab@master
       env:
        GITHUB_TOKEN: ${{ secrets.TOKEN }}
        RELEASE_FILE_FOLDER: app/build/outputs/bundle/release
@@ -57,7 +57,3 @@ You'll need to provide these environment variables to specify exactly what infor
 * **RELEASE_FILE_FOLDER**: main folder to search for the aab. Most of the time, it's `app`
 * **TARGET_BRANCH**: target branch to create release
 * **TAG_NAME**: tag name to create tag
-
-## Credits
-
-Based off [ShaunLWM/action-release-debugapk](https://github.com/ShaunLWM/action-release-debugapk)
